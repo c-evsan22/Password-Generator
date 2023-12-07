@@ -1,5 +1,11 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var passwordLength;
+var confirmLower;
+var confirmUpper;
+var confirmNumber;
+var confirmSpecial;
+var userChoices;
 
 // Write password to the #password input
 function writePassword() {
@@ -29,5 +35,3 @@ for (var i=0; i <= passwordLength; i++) {
 
   }
 
-  // i have sat and stared at this screen for over 50 consecutive hours i literally dont understand shit. 
-  //im going to the gym
